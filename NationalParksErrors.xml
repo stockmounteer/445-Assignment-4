@@ -1,0 +1,137 @@
+<!-- Error: The root element name is NationalPark instead of NationalParks -->
+<NationalPark xmlns="http://venus.sod.asu.edu/WSRepository/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stockmounteer.github.io/445-Assignment-4/NationalParks.xsd">
+    
+    <!-- National Park 1 -->
+    <!-- Error: A required attribute is missing -->
+    <NationalPark Rating="4.8">
+        <Name>Grand Canyon</Name>
+        <Phone>928-638-7496</Phone>
+        <Address>
+            <Number>20</Number>
+            <Street>S Entrance Rd</Street>
+            <City>Grand Canyon</City>
+            <State>Arizona</State>
+            <Zip>86023</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 2 -->
+    <!-- Error: A Phone element is missing on one of the national parks -->
+    <NationalPark Rating="4.8">
+        <Name>Arches</Name>
+        <Address NearestAirport="Salt Lake City">
+            <Number>332</Number>
+            <Street>Westland Parkway</Street>
+            <City>Moab</City>
+            <State>Utah</State>
+            <Zip>84532</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 3 -->
+    <!-- Error: An Address element has no closing tag -->
+    <NationalPark Rating="4.6">
+        <Name>Everglades</Name>
+        <Phone>435-719-2299</Phone>
+        <Address NearestAirport="Miami">
+            <Number>40001</Number>
+            <Street>State Road 9336</Street>
+            <City>Homestead</City>
+            <State>Florida</State>
+            <Zip>33034</Zip>
+    </NationalPark>
+
+    <!-- National Park 4 -->
+    <!-- Error: Two names are provided for one of the national parks -->
+    <NationalPark Rating="4.8">
+        <Name>Glacier</Name>
+        <Name>Glacier</Name>
+        <Phone>406-888-7800</Phone>
+        <Address NearestAirport="Kalispel">
+            <Number>50</Number>
+            <Street>Going-to-the-sun Rd</Street>
+            <City>Babb</City>
+            <State>Montana</State>
+            <Zip>59411</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 5 -->
+    <NationalPark Rating="4.9">
+        <Name>Grand Teton</Name>
+        <Phone>307-739-3399</Phone>
+        <Address NearestAirport="Jackson Hole">
+            <Number>1</Number>
+            <Street>Nordyke Drive</Street>
+            <City>Moose</City>
+            <State>Wyoming</State>
+            <Zip>83012</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 6 -->
+    <NationalPark>
+        <Name>Haleakala</Name>
+        <Phone>808-572-4400</Phone>
+        <Address NearestAirport="Kahului">
+            <Number>30000</Number>
+            <Street>Haleakala Hwy</Street>
+            <City>Kula</City>
+            <State>Hawaii</State>
+            <Zip>96790</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 7 -->
+    <NationalPark>
+        <Name>Mount Rainier</Name>
+        <Phone>360-569-2211</Phone>
+        <Address NearestAirport="Seattle-Tacoma">
+            <Number>39000</Number>
+            <Street>State Route 706 E</Street>
+            <City>Ashford</City>
+            <State>Washington</State>
+            <Zip>98304</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 8 -->
+    <NationalPark>
+        <Name>Yellowstone</Name>
+        <Phone>307-344-7381</Phone>
+        <Address NearestAirport="Jackson Hole">
+            <Number>114</Number>
+            <Street>Albright Ave</Street>
+            <City>Yellowstone National Park</City>
+            <State>Wyoming</State>
+            <Zip>82190</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 9 -->
+    <NationalPark>
+        <Name>Yosemite</Name>
+        <Phone>209-372-0200</Phone>
+        <Address NearestAirport="San Francisco International">
+            <Number>9035</Number>
+            <Street>Village Drive</Street>
+            <City>Yosemite National Park</City>
+            <State>California</State>
+            <Zip>95389</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 10 -->
+    <NationalPark>
+        <Name>Zion</Name>
+        <Phone>435-772-3256</Phone>
+        <Address NearestAirport="St. George Regional">
+            <Number>1</Number>
+            <Street>Zion Park Blvd.</Street>
+            <City>Sprindale</City>
+            <State>Utah</State>
+            <Zip>84767</Zip>
+        </Address>
+    </NationalPark>
+
+</NationalPark>
