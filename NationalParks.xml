@@ -1,11 +1,13 @@
 <NationalParks xmlns="http://venus.sod.asu.edu/WSRepository/xml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://stockmounteer.github.io/445-Assignment-4/NationalParks.xsd">
     
     <!-- National Park 1 -->
-    <NationalPark Rating="4.8">
+    <NationalPark Rating="4.9">
         <Name>Grand Canyon</Name>
         <Phone>928-638-7496</Phone>
-        <Address NearestAirport="Flagstaff">
-            <Number>20</Number>
+        <Phone>888-297-2757</Phone>
+        <Phone>866-499-2574</Phone>
+        <Address NearestAirport="FlagStaff">
+            <Number>8</Number>
             <Street>S Entrance Rd</Street>
             <City>Grand Canyon</City>
             <State>Arizona</State>
@@ -127,6 +129,19 @@
             <City>Sprindale</City>
             <State>Utah</State>
             <Zip>84767</Zip>
+        </Address>
+    </NationalPark>
+
+    <!-- National Park 11 -->
+    <NationalPark Rating="4.9">
+        <Name>Badlands</Name>
+        <Phone>605-433-5361</Phone>
+        <Address NearestAirport="Rapid City Regional">
+            <Number>25216</Number>
+            <Street>Ben Reifel Road</Street>
+            <City>Interior</City>
+            <State>South Dakota</State>
+            <Zip>57750</Zip>
         </Address>
     </NationalPark>
 
